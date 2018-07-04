@@ -11,20 +11,16 @@ body{
 
 .content{
 	//border: 2px dotted red;
+	position: relative;
 	margin: 0 auto;
 	max-width: 2000px;
-	height: 3000px;
+	//height: 3000px;
 	box-shadow: 0 0 500px black;
 }
 
 .header{
 	position: relative;
-	
-	//border-left: 60px solid #6e93ad;
-	//border-right: 60px solid #6e93ad;
-	//border: 2px dotted red;
 	box-sizing: border-box;
-	//box-shadow: 0 0 200px rgba(0,0,0,0.9);
 	min-width: 920px;
 	
 	padding-top: 80px;
@@ -38,10 +34,14 @@ body{
 	margin-left: 14%;
 	margin-right: 14%;
 	z-index: 100;
-	//border:2px dotted blue;
+	border:2px dotted blue;
+	height: 35vw;
+	min-height: 322px;
+	max-height: 700px;
 }
 
 .header_bg_parent{
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -61,7 +61,7 @@ body{
 }
 
 .navigation{
-	//margin-ÐµÑ‰Ð·: 0 auto;
+	//margin-åùç: 0 auto;
 
 	//background-color: blue;
 	//min-width: 600px;
@@ -208,3 +208,89 @@ body{
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 }
+.main_block{
+	margin: 300px 0 300px 0;
+	height: 1000px;
+	border: 2px dotted green;
+	background: linear-gradient(to bottom, red,orange,yellow,green,blue,violet);
+}
+
+.footer {
+  border: 2px dotted red;
+  //position: absolute;
+  left: 0;
+  bottom: 0;
+  background: url(../img/footer-bg.png) no-repeat;
+  background-size: cover;
+  height: 344px;
+  width: 100%;
+}
+
+.foot_cont {
+  font-family: 'Open Sans', sans-serif;
+  //position:absolute;
+  margin-left: 20%;
+  margin-top: 7%;
+}
+
+.f_cat {
+  position:absolute;
+  height: 120px;
+  width: 150px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.f_cat img {
+  height: 120px;
+  width: 150px;
+}
+
+.soc_webs {
+  position: absolute;
+  margin-top: 160px;
+}
+
+.share-button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #525569;
+    padding: 6px;
+    width: 94px;
+    height: 18px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.share-button:hover {
+  background-color: #808393;
+}
+
+.share-button:last-child {
+  width: 150px;
+}
+
+.copyright {
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 150px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.f_nav_menu{
+  font-family: 'Open Sans', sans-serif;
+	//border: 2px dotted green;
+	display: inline-block;
+	float: right;
+  margin-top: 7%;
+	margin-right: 21%;
+	//padding-left: auto;
+}
+
