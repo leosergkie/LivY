@@ -108,7 +108,6 @@ body{
 	float: right;
 	display: inline-block;
 	box-sizing: content-box;
-	margin: 10px 5px 0px 5px;
 	//vertical-align: bottom;
 	padding: 3px;
 	border-radius: 15px;
@@ -394,7 +393,7 @@ i.fa + input {
   height: 55vw;
   min-height: 506px;
   max-height: 1100px;
-  //width: 80%;
+ // width: 80%;
 }
 
 @media(min-width: 2000px){
@@ -417,7 +416,7 @@ i.fa + input {
 
 .first_foot_row {
 	display: grid;
-	grid-template-columns: 150px minmax(10px,130px) 450px 
+	grid-template-columns: 150px minmax(10px,130px) minmax(400px,450px) 
 								 minmax(10px,20px) 200px;
 }
 
@@ -440,7 +439,8 @@ i.fa + input {
 
 .nav_panel {
 	display: grid;
-	grid-template-columns: repeat(4,auto);
+	grid-template-columns: minmax(40px, 250px) minmax(83px, 250px)
+						   minmax(70px, 250px) minmax(55px, 250px);
 	align-items: start;
 }
 
@@ -481,7 +481,7 @@ i.fa + input {
 							 minmax(100px, 120px)  /*fb*/
 							 minmax(100px, 120px)  /*tw*/
 							 minmax(150px, 160px)  /*tel*/ 
-							 minmax(400px, auto);/*copyright*/
+							 minmax(200px, auto);/*copyright*/
 	grid-gap: 10px;
 	align-items: center;
 	color: white;
