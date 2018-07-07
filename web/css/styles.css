@@ -75,7 +75,7 @@ body{
 
 .navigation{
 	//margin-���: 0 auto;
-
+	//border: 2px dotted red;
 	//background-color: blue;
 	//min-width: 600px;
 	//max-width: 1200px;
@@ -108,6 +108,7 @@ body{
 	float: right;
 	display: inline-block;
 	box-sizing: content-box;
+	margin: 10px 5px 0px 0px;
 	//vertical-align: bottom;
 	padding: 3px;
 	border-radius: 15px;
@@ -470,19 +471,61 @@ i.fa + input {
 }
 
 .first_foot_row {
+	//border: 2px solid red;
+	//padding-bottom: 100px;
+	//padding-top: 60px;
+	//margin-top: -60px;
 	display: grid;
-	grid-template-columns: 150px minmax(10px,130px) minmax(400px,450px) 
-								 minmax(10px,20px) 200px;
+	grid-template-columns: 150px minmax(10px,700px) 585px;
 }
 
 .cat_img {
-	position: relative;
-	bottom: 80px;
+	//border: 2px dotted red;
+	margin: 0 auto;
+	//position: relative;
+	//bottom: 80px;
 }
 
 .cat_img > img {
 	width: 150px;
 	//height: 130px;
+}
+
+@media (max-width: 1300px){
+	.first_foot_row {
+		//border: 2px solid red;
+		display: grid;
+		grid-template-columns: minmax(80px, 150px) minmax(1px,700px) 585px;
+	}
+	.cat_img {
+		//border: 2px dotted red;
+		//position: relative;
+		//bottom: 
+	}
+	.cat_img > img {
+		width: 100%;
+		//height: 130px;
+	}
+
+	.cat_img > p {
+	color: white;
+	//border: 2px dotted blue;
+	text-align: center;
+	position: relative;
+	font-size: 1vw;
+	bottom: 5px;
+}
+}
+
+@media (max-width: 920px){
+	.cat_img > p {
+
+	color: white;
+	text-align: center;
+	position: relative;
+	font-size: 10px;
+	bottom: 5px;
+}
 }
 
 .cat_img > p {
@@ -493,6 +536,7 @@ i.fa + input {
 }
 
 .nav_panel {
+	//border: 2px solid red;
 	display: grid;
 	grid-template-columns: minmax(40px, 250px) minmax(83px, 250px)
 						   minmax(70px, 250px) minmax(55px, 250px);
@@ -531,6 +575,8 @@ i.fa + input {
 }
 
 .second_foot_row {
+	margin-top: 50px;
+	//border: 2px solid blue;
 	display: grid;
 	grid-template-columns: 	 minmax(100px, 120px)  /*vk*/
 							 minmax(100px, 120px)  /*fb*/
@@ -588,6 +634,8 @@ i.fa + input {
 	width: 72%;
 	margin-left: 14%;
 	margin-right: 14%;
+	//height: 20%;
+	height: 100px;
 	//border: 5px dotted blue;
 	position: absolute;
 	z-index: 2;
