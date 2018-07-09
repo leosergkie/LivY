@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>Веб-студия LivY</title>
@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
 	<script src="js/jquery.countdown.js"></script>
 </head>
 <body>
@@ -43,13 +44,13 @@
 							Текст текст текст текст текст! Текст текст
 						</div>
 						
-						<form>
+						<form method="POST" id="form">
 							<div class="name_input">
-								<input type="text" name="Name" placeholder="Имя" autocomplete="off">
+								<input required type="text" name="Name" placeholder="Имя" autocomplete="off">
 								<div class="icon_class"><div class="fa fa-user fa-lg fa-fw form_icon" aria-hidden="true"></div></div>
 							</div>
 							<div class="phone_input">
-								<input id="phone_icon" type="text" name="Phone" placeholder="Номер телефона" autocomplete="off">
+								<input id="phone_icon" required type="text" name="Phone" placeholder="Номер телефона" autocomplete="off">
 								<div class="icon_class"><div class="fa fa-phone fa-lg fa-fw form_icon" aria-hidden="true"></div></div>
 							</div>
 							<button type="submit" name="Submit"><div class="form_submit">Заказать!</div></button>

@@ -244,14 +244,18 @@ body{
 	min-height: 200px;
 }
 
-.order_info{
+.order_info {
 	//border: 2px dotted red;
 	text-align: center;
 	//height: 150px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	
+}
+
+.order_info > p {
+	color: #32c3c6;
+	text-shadow: 0 0 3px white;
 }
 
 @media (max-width: 920px){
@@ -343,6 +347,7 @@ body{
 		font-size: 10px;
 	}
 }
+
 
 .order>form{
 	text-align: center;
