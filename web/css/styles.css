@@ -23,6 +23,9 @@ body{
 
 
 
+
+
+
 .header{
 	position: relative;
 
@@ -549,8 +552,16 @@ body{
 }
 
 .about_content{
-	
+	font: 100%/1.5em Arial, Helvetica, sans-serif;
+	top: 12%;
+	width: 72%;
+	margin-left: 14%;
+	margin-right: 14%;
+	height: 29%;
+	position: absolute;
 }
+
+
 
 .about_bg{
 
@@ -558,58 +569,72 @@ body{
 
 .about_cat {
 	position: absolute;
-	margin-top: 27.5%;
+	width: 100%;
+	height: 65%;
+}
+
+.cat {
+	position: absolute;
+	width: 44%;
+	top: 75%;
+	z-index: 200;
 	left: 50%;
-	width: 30%;
-	max-width: 30%;
-	min-width: 10%;	 
-	z-index: 4;
+}
+
+.dialog {
+	position: absolute;
+	width: 40%;
+	height: 80%;
+	border: 1px solid black;
+	border-radius: 20px;
+	left: 10%;
+	top: 45%;
 	
 }
 
+.dialog>p {
+	padding: 5px;
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 0.7em;
+	font-weight: 300;
+}
+
 .about_name {
-	border: 2px dotted red;
-	width: 400px;
+	top: 5%;
+	width: 100%;
+	height: 35%;
   	position: absolute;
-  	top: 15%;
-  	left: 40%;
-  	font-family: "Open Sans";
+}
+
+
+
+.about_name>p {
+	height: 30%;
+	text-align: center;
+  	font-family: 'Open Sans', sans-serif;
+  	//font-size: 3.125em;
   	font-size: 50px;
+
   	font-weight: 700;
-  	line-height: 22px;
+  	//line-height: 1.375em;
   	text-transform: uppercase;
   	color: #32c3c6;
-  	
+}
+
+.about_name>img {
+	
+	position: absolute;
+	width: 15%;
 	
 }
 
 .about_rombiki {
-	position: absolute;
-	top: 18%;
-	left: 45%;
-}
-
-.about_dialog {
-	position: absolute;
-	left: 20%;
-	top: 20%;
-}
-
-.dialog {
-	width: 80%;
+	width: 10%;
 }
 
 .about_text {
-	position: absolute;
-	top: 10%;
-	transform: rotate( -10deg);
-	padding: 5%;
-	width: 90%;
-	color: #000;
-	font-family: "Open Sans";
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 21.66px;
+	
 }
 
 .about_bg>img{
@@ -647,11 +672,35 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
 	.portfolio{
 		margin-top: -13vw;
 	}
+	.about_name>p {
+		height: 30%;
+		text-align: center;
+  		font-family: 'Open Sans', sans-serif;
+  		//font-size: 3.125em;
+  		font-size: 2vw;
+
+  		font-weight: 700;
+  		//line-height: 1.375em;
+  		text-transform: uppercase;
+  		color: #32c3c6;
+	}
 }
 
 @media(max-width: 920px){
 	.portfolio{
 		margin-top:-120px;
+	}
+	.about_name>p {
+		height: 30%;
+		text-align: center;
+  		font-family: 'Open Sans', sans-serif;
+  		//font-size: 3.125em;
+  		font-size: 4vw;
+
+  		font-weight: 700;
+  		//line-height: 1.375em;
+  		text-transform: uppercase;
+  		color: #32c3c6;
 	}
 }
 
@@ -751,6 +800,8 @@ i.fa + input {
 	.footer{
 		margin-top:-303px;
 	}
+
+		
 }
 
 .first_foot_row {

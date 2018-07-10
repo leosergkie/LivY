@@ -1,6 +1,4 @@
-﻿
-// Таймер
-$('#timer').countdown('2018/07/10').on('update.countdown', function(event) {
+﻿$('#timer').countdown('2018/07/11').on('update.countdown', function(event) {
   var $this = $(this).html(event.strftime(''
     + '<div class = "timer_number">%I<br><span>ЧАСОВ</span></div> : '
     + '<div class = "timer_number">%M<br><span>МИНУТ</span></div> : '
@@ -11,7 +9,7 @@ $('#timer').countdown('2018/07/10').on('update.countdown', function(event) {
 $('form').submit(function(e){
     e.preventDefault();
     $.ajax({
-      url: "http://localhost/web/sendOrderForm.php",
+      url: "http://localhost/LivY/web/sendOrderForm.php",
       type: "POST",
       data: $('#form').serialize(),
       success: function(response) {
@@ -26,8 +24,3 @@ $('form').submit(function(e){
      }
     });
 });
-
-//Маска телефонного номера
- jQuery(function($){
-   $("#phone_icon").mask("+7(999) 999-99-99");
-   });
