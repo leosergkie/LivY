@@ -24,3 +24,13 @@ $('form').submit(function(e){
      }
     });
 });
+
+$('#more_btn').click(function(){
+  $("body").css('overflow','hidden');
+  $("#hidden").fadeIn("slow");
+});  
+
+$('.close_btn').click(function(){
+  $("body").css('overflow','visible');
+  $("#hidden").fadeOut("slow");
+});  
