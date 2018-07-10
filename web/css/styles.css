@@ -1,6 +1,7 @@
  *{
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -138,11 +139,9 @@ body{
 }
 
 .nav_button:hover .button_child{
-	background-color: rgba(255,255,255,0.2);
 }
 
 .nav_button:active .button_child{
-	background-color: rgba(255,255,255,0.6);
 }
 
 .call_us{
