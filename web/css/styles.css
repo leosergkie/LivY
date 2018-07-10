@@ -775,8 +775,8 @@ body{
 	margin-left: 14%;
 	margin-right: 14%;
 	margin-top: 150px;
-  width: 50%;
-  height: 40%;
+ 	 width: 72%;
+ 	 height: 40%;
 	position: absolute;
 	border: 5px dotted red;
 }
@@ -790,17 +790,13 @@ body{
 }
 
 .portf_name {
-  position: relative;
-  top: 7%;
-  left: 45%;
+ text-align: center;
   font-size: 50px;
   color: #32c3c6;
 }
 
 .separ {
-  position: relative;
-  left: 45%;
-  top: 28%;
+
 }
 
 .slider {
