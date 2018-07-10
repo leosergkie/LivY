@@ -1,6 +1,7 @@
  *{
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -19,9 +20,6 @@ body{
 	//height: 3000px;
 	box-shadow: 0 0 500px black;
 }
-
-
-
 
 
 
@@ -138,11 +136,11 @@ body{
 }
 
 .nav_button:hover .button_child{
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(156,182,197,0.7);
 }
 
 .nav_button:active .button_child{
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(156,182,197,1);
 }
 
 .call_us{
@@ -570,6 +568,7 @@ body{
 }
 
 .about_name {
+	border: 2px dotted red;
 	width: 400px;
   	position: absolute;
   	top: 15%;
