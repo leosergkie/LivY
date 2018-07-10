@@ -521,21 +521,25 @@ body{
 	display: inline-block;
 	min-width: 60%;
 	height: 100px;
-	margin-right: 10px;
 }
 
 .hidden_title > h1 {
-	margin: 50px;
+	margin: 10%;
 	min-width: 235px;
 }
 
 .hidden_text {
-	padding: 50px;
+	padding: 40px 15% 0px 14%;
 }
 
 .close_btn {
 	display: inline-block;
-	margin-left: 30%;
+	margin-left: 5%;
+	color:  #ffce0b;
+}
+
+.close_btn:hover {
+	color: white;
 }
 
 .x {
@@ -767,7 +771,7 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
 		text-align: center;
   		font-family: 'Open Sans', sans-serif;
   		//font-size: 3.125em;
-  		font-size: 4vw;
+  		font-size: 20px;
 
   		font-weight: 700;
   		//line-height: 1.375em;
