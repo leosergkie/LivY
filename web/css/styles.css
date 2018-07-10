@@ -291,7 +291,7 @@ body{
 	position: absolute;
 	width: 44%;
 	top: 75%;
-	z-index: 4;
+	z-index: 200;
 	left: 50%;
 }
 
@@ -310,7 +310,7 @@ body{
 	padding: 5px;
 	color: #333333;
 	font-family: "Open Sans";
-	font-size: 0.9em;
+	font-size: 0.7em;
 	font-weight: 300;
 }
 
@@ -321,12 +321,14 @@ body{
   	position: absolute;
 }
 
+
+
 .about_name>p {
 	height: 30%;
 	text-align: center;
   	font-family: 'Open Sans', sans-serif;
   	//font-size: 3.125em;
-  	font-size: 2vw;
+  	font-size: 50px;
 
   	font-weight: 700;
   	//line-height: 1.375em;
@@ -384,11 +386,35 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
 	.portfolio{
 		margin-top: -13vw;
 	}
+	.about_name>p {
+		height: 30%;
+		text-align: center;
+  		font-family: 'Open Sans', sans-serif;
+  		//font-size: 3.125em;
+  		font-size: 2vw;
+
+  		font-weight: 700;
+  		//line-height: 1.375em;
+  		text-transform: uppercase;
+  		color: #32c3c6;
+	}
 }
 
 @media(max-width: 920px){
 	.portfolio{
 		margin-top:-120px;
+	}
+	.about_name>p {
+		height: 30%;
+		text-align: center;
+  		font-family: 'Open Sans', sans-serif;
+  		//font-size: 3.125em;
+  		font-size: 4vw;
+
+  		font-weight: 700;
+  		//line-height: 1.375em;
+  		text-transform: uppercase;
+  		color: #32c3c6;
 	}
 }
 
@@ -494,6 +520,8 @@ i.fa + input {
 	.footer{
 		margin-top:-303px;
 	}
+
+		
 }
 
 
