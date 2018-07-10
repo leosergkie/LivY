@@ -21,11 +21,6 @@ body{
 	box-shadow: 0 0 500px black;
 }
 
-
-
-
-
-
 .header{
 	position: relative;
 
@@ -412,6 +407,10 @@ body{
 	.order>form>div{
 		margin-top: 3px;
 	}	
+
+	.hidden_text {
+		font-size: 18px;
+	}
 }
 
 @media (min-width: 921px) and (max-width: 2000px){
@@ -426,6 +425,9 @@ body{
 	.order>form>div{
 		margin-top: 0.3vw;
 	}	
+	.hidden_text {
+		font-size: 2vw;
+	}
 }
 
 
@@ -440,6 +442,9 @@ body{
 	}
 	.order>form>div{
 		margin-top: 6px;
+	}
+	.hidden_text {
+		font-size: 24px;
 	}	
 }
 
@@ -459,19 +464,9 @@ body{
     color:#32c3c6;
   }
  
-
-
-
-
-
-
-
-
-
-
 .order>form>button{
 	position: relative;
-	z-index: 10;
+	z-index: 2;
 	background: none;
 	display: inline-block;
 	border: none;
@@ -480,7 +475,6 @@ body{
 	margin: 0 auto;
 	margin-top: 5px;
 	padding: 3px;
-
 }
 
 .form_submit{
@@ -508,9 +502,87 @@ body{
 	box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
 }
 
+#hidden {
+	display: none;
+	position: fixed;
+	//margin: 0px 500px 500px 0px;
+	min-width: 600px;
+	max-width: 70%;
+	height: 80%;
+	background-color: #18457a;
+	border-radius: 3px;
+	z-index: 3;
+	box-shadow: 0px 0px 144px 500px rgba(0,0,0,0.68);
+	color: whitesmoke;
+	font-family: "Open Sans";
+}
 
+.hidden_title {
+	display: inline-block;
+	min-width: 60%;
+	height: 100px;
+	margin-right: 10px;
+}
 
+.hidden_title > h1 {
+	margin: 50px;
+	min-width: 235px;
+}
 
+.hidden_text {
+	padding: 50px;
+}
+
+.close_btn {
+	display: inline-block;
+	margin-left: 30%;
+}
+
+.x {
+    display: block;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+}
+
+.x:hover:before {
+  border-top: 1px solid rgb(237,237,237)
+}
+
+.x:hover:after {
+  border-top: 1px solid rgb(237,237,237)
+}
+
+.x:before {
+    content: "";
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+.x:after {
+    content: "";
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
 
 .main_block{
 	position: relative;
