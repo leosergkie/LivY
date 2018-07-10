@@ -774,7 +774,7 @@ body{
 .portfolio_content{
 	margin-left: 14%;
 	margin-right: 14%;
-	margin-top: 150px;
+	margin-top: 180px;
  	 width: 72%;
  	 height: 40%;
 	position: absolute;
@@ -796,7 +796,7 @@ body{
 }
 
 .separ {
-
+  margin-left: 41%;
 }
 
 .slider {
@@ -820,17 +820,108 @@ body{
   font-size: 17px;
 }
 
-.connect>form>div {
-  display: inline-block;
-  height: 44px;
-  //background-color: red;
+.connect>form{
+	text-align: center;
+	position: relative;
+	//border: 2px dotted red;
+	//display: grid;
+	//grid-template-rows: 1fr 1fr 1fr;
 }
 
-.connect>form>div>input {
-  height: 44px;
-  width: 280px;
-  border-radius: 5px;
+.connect>form>div>input{
+	position: absolute;
+	display: inline-block;
+	border: 1px solid #32c3c6;
+	border-radius: 5px;
+	//margin-top: 3%;
+	width: 100%;
+	//border:2px dotted red;
+	width: 280px;
+ 	box-sizing: border-box;
+    outline:none;
+     height: 2vw;
+    min-height: 44px;
+    max-height: 44px;
 }
+
+.connect>form>div{
+	text-align: left;
+	position: relative;
+  display: inline-block;
+	//border: 2px dotted red;
+	margin-bottom: -15px;
+}
+
+.icon_class{
+	height: 2vw;
+    min-height: 18px;
+    max-height: 40px;
+	//border:2px solid blue;
+	margin-bottom: 20px;
+	padding-top: -20px;
+}
+
+ .form_icon{
+ 	position: absolute;
+ 	left:3%;
+ 	top:30%;
+ 	//border: 2px dotted blue;
+    //padding:1vw 1vw;
+    color:#aaa;
+}
+
+.connect>form>div>input:focus{
+    border-color:#32c3c6;
+    box-shadow:0 0 1vw 0 #32c3c6;
+}
+
+.connect>form>div {
+    padding-left:40px;
+}
+
+
+ .connect>form>div>input:focus + div>div{
+    color:#32c3c6;
+  }
+
+.connect>form>button{
+	position: relative;
+	z-index: 2;
+	background: none;
+	display: inline-block;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+.form_submit{
+	padding: 7px 20px 7px 20px;
+	border-radius: 20px;
+	font-family: 'Open Sans';
+	text-shadow: 0 0 3px rgba(0,0,0,0.3);
+	background: linear-gradient(to bottom, #ffdc52, #ffce08);
+}
+
+.connect>form>button:hover{
+	border: 1px solid rgba(255,255,255,0.6);
+	margin-top: 4px;
+}
+
+
+
+.connect>form>button:active{
+	border: 1px solid rgba(255,255,255,0.6);
+	margin-top: 4px;
+
+}
+
+.connect>form>button:active .form_submit{
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+}
+
 
 i.fa {
   width: 26px;
