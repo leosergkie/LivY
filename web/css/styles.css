@@ -139,9 +139,11 @@ body{
 }
 
 .nav_button:hover .button_child{
+	background-color: rgba(156,182,197,0.7);
 }
 
 .nav_button:active .button_child{
+	background-color: rgba(156,182,197,1);
 }
 
 .call_us{
