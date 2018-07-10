@@ -168,7 +168,7 @@ body{
 .header_info{
 	font-family: 'Open Sans';
 	font-weight: 300;
-	
+
 	color: white;
 }
 
@@ -329,7 +329,7 @@ body{
 
 
 @media (min-width: 2001px){
-	
+
 	#timer{
 		font-size: 40px;
 	}
@@ -406,7 +406,7 @@ body{
 	}
 	.order>form>div{
 		margin-top: 3px;
-	}	
+	}
 
 	.hidden_text {
 		font-size: 18px;
@@ -424,7 +424,7 @@ body{
 	}
 	.order>form>div{
 		margin-top: 0.3vw;
-	}	
+	}
 	.hidden_text {
 		font-size: 2vw;
 	}
@@ -445,25 +445,25 @@ body{
 	}
 	.hidden_text {
 		font-size: 24px;
-	}	
+	}
 }
 
 
-  
+
 .order>form>div>input:focus{
     border-color:#32c3c6;
     box-shadow:0 0 1vw 0 #32c3c6;
 }
-  
+
 .order>form>div>input{
     //padding-left:40px;
 }
-  
-  
+
+
  .order>form>div>input:focus + div>div{
     color:#32c3c6;
   }
- 
+
 .order>form>button{
 	position: relative;
 	z-index: 2;
@@ -495,7 +495,7 @@ body{
 .order>form>button:active{
 	border: 1px solid rgba(255,255,255,0.6);
 	margin-top: 4px;
-	
+
 }
 
 .order>form>button:active .form_submit{
@@ -620,7 +620,7 @@ body{
 	//margin-bottom: 100px;
 	height: 50vw;
 	max-height: 1000px;
-	min-height: 460px; 
+	min-height: 460px;
 }
 
 .about_content{
@@ -661,7 +661,7 @@ body{
 	border-radius: 20px;
 	left: 10%;
 	top: 45%;
-	
+
 }
 
 .dialog>p {
@@ -695,10 +695,10 @@ body{
 }
 
 .about_name>img {
-	
+
 	position: absolute;
 	width: 15%;
-	
+
 }
 
 .about_rombiki {
@@ -706,7 +706,7 @@ body{
 }
 
 .about_text {
-	
+
 }
 
 .about_bg>img{
@@ -715,23 +715,14 @@ body{
 
 .portfolio {
 	-webkit-clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
-clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
-//background-color: blue;
-	//margin-top: -13%;
-	//border-bottom:10px dotted blue;
-  //position: absolute;
+  clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  //background: url(../img/portfolio-bg.png) no-repeat;
-  //background-size: 100%;
-  //bottom: 10px;
-  //background-color: black;
   width:100%;
   height: 65vw;
 	max-height: 1280px;
-	min-height: 590px; 
+	min-height: 590px;
   bottom: 190px;
-  //z-index: 100;
 }
 
 @media(min-width: 2000px){
@@ -780,8 +771,10 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
 	margin-left: 14%;
 	margin-right: 14%;
 	margin-top: 150px;
+  width: 50%;
+  height: 40%;
 	position: absolute;
-	//border: 5px dotted red;
+	border: 5px dotted red;
 }
 
 .portfolio_bg{
@@ -794,8 +787,8 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
 
 .portf_name {
   position: relative;
-  top: 20%;
-  left: 40%;
+  top: 7%;
+  left: 45%;
   font-size: 50px;
   color: #32c3c6;
 }
@@ -818,8 +811,8 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
 .connect {
   position: absolute;
   top: 76%;
-  left: 35%;
-  width: 500px;
+  //left: 35%;
+  width: 100%;
   height: 80px;
   background-color: black;
   text-align: center;
@@ -827,8 +820,16 @@ clip-path: polygon(25% 6%, 100% 6%, 100% 100%, 0 75%, 0 0);
   font-size: 17px;
 }
 
-input {
-  height: 20px;
+.connect>form>div {
+  display: inline-block;
+  height: 44px;
+  //background-color: red;
+}
+
+.connect>form>div>input {
+  height: 44px;
+  width: 280px;
+  border-radius: 5px;
 }
 
 i.fa {
@@ -873,7 +874,7 @@ i.fa + input {
 		margin-top:-303px;
 	}
 
-		
+
 }
 
 .first_foot_row {
@@ -906,7 +907,7 @@ i.fa + input {
 	.cat_img {
 		//border: 2px dotted red;
 		//position: relative;
-		//bottom: 
+		//bottom:
 	}
 	.cat_img > img {
 		width: 100%;
@@ -958,13 +959,13 @@ i.fa + input {
 }
 
 
-.item1 { 
+.item1 {
 	align-self: end;
 	justify-content: center;
 	color: aquamarine;
  }
 
- .item2 { 
+ .item2 {
 	align-self: end;
 	justify-content: center;
 	position: relative;
@@ -981,13 +982,13 @@ i.fa + input {
 }
 
 .second_foot_row {
-	
+
 	margin-top: 50px;
 	display: grid;
 	grid-template-columns: 	 minmax(100px, 120px)  /*vk*/
 							 minmax(100px, 120px)  /*fb*/
 							 minmax(100px, 120px)  /*tw*/
-							 minmax(150px, 160px)  /*tel*/ 
+							 minmax(150px, 160px)  /*tel*/
 							 minmax(200px, auto);/*copyright*/
 	grid-gap: 10px;
 	align-items: center;
@@ -1006,7 +1007,7 @@ i.fa + input {
 	//vertical-align: bottom;
 }
 
-.share-button { 
+.share-button {
 	display: grid;
 	height: 30px;
 	border-radius: 10px;

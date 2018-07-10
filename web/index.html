@@ -59,7 +59,7 @@
 							<br><br>
 							Твой сайт будет первым в очереди
 						</div>
-						
+
 						<form method="POST" id="form">
 							<div class="name_input">
 								<input required type="text" name="Name" placeholder="Имя" autocomplete="off">
@@ -73,7 +73,7 @@
 						</form>
 					</div>
 				</div>
-				
+
 			</div>
 
 			<div class="header_bg_parent">
@@ -93,12 +93,12 @@
 					</div>
 					<div class="about_cat">
 						<div class="dialog">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolores quod animi delectus aperiam illum commodi ipsum facilis ad beatae, itaque quis provident minus perspiciatis nobis, fuga rerum explicabo maxime.</p> 
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolores quod animi delectus aperiam illum commodi ipsum facilis ad beatae, itaque quis provident minus perspiciatis nobis, fuga rerum explicabo maxime.</p>
 						</div>
 						<img src="img/about_cat.png" class="cat">
 					</div>
 				</div>
-				
+
 				<div class="about_bg">
 					<img src="img/about_bg.png">
 				</div>
@@ -119,13 +119,16 @@
 					</div>
 					<div class="connect">
 						Форма для связи с компанией
-						<form>
-
-							<i class="fa fa-address-book-o" aria-hidden="true"></i>
-							<input type="text" placeholder="Ваше имя" />
-
-							<i class="fas fa-envelope"></i>
-							<input type="text" placeholder="e-mail" />
+						<form method="POST" id="form">
+							<div>
+								<input required type="text" name="Name" placeholder="Имя" autocomplete="off">
+								<div class="icon_class"><div class="fa fa-user fa-lg fa-fw form_icon" aria-hidden="true"></div></div>
+							</div>
+							<div>
+								<input id="mail_icon" required type="email" name="Phone" placeholder="e-mail" autocomplete="off">
+								<div class="icon_class"><div class="fa fa-envelope-o fa-lg fa-fw form_icon" aria-hidden="true"></div></div>
+							</div>
+							<button type="submit" name="Submit"><div class="form_submit">Заказать!</div></button>
 						</form>
 					</div>
 
@@ -156,7 +159,7 @@
 							<button class="nav_button" onclick="location.href='#portfolio'"><div class="button_child"><b>Портфолио</b></div></button>
 							<button class="nav_button" onclick="location.href='#about'"><div class="button_child"><b>О компании</b></div></button>
 							<button class="nav_button" onclick="location.href='#home'"><div class="button_child"><b>Главная</b></div></button>
-					</div> 
+					</div>
 				</div>
 				<div class="second_foot_row">
 		        		<div class="share-button"><a href="https://vk.com/id418862138"  class="share-via-vk">
@@ -179,10 +182,10 @@
 								2018 &copy; Все права защищены.
 						<br>Любое копирование только с разрешения и указания источника.
 						<br>www.livy.ru
-						</div>  
+						</div>
 				</div>
 			</div>
-	
+
 			<div class="footer_bg">
 				<img src="img/footer_bg.png">
 			</div>
@@ -192,5 +195,3 @@
 <script src = "js/countdown.js"></script>
 
 </html>
-
-
