@@ -271,7 +271,7 @@ body {
         color: white;
         text-align: center;
         position: relative;
-        font-size: 10px;
+        font-size: 18px;
         bottom: 5px;
     }
 
@@ -280,7 +280,7 @@ body {
 	}
 
 	.portf_name  > p {
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
@@ -456,7 +456,6 @@ body {
         color: white; //border: 2px dotted blue;
         text-align: center;
         position: relative;
-        font-size: 1vw;
         bottom: 5px;
     }
 }
@@ -617,52 +616,7 @@ body {
     color: white;
 }
 
-.x {
-    display: block;
-    right: 0;
-    top: 0;
-    width: 32px;
-    height: 32px;
-    z-index: 3;
-}
 
-.x:hover:before {
-    border-top: 1px solid rgb(237, 237, 237)
-}
-
-.x:hover:after {
-    border-top: 1px solid rgb(237, 237, 237)
-}
-
-.x:before {
-    content: "";
-    display: block;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 32px;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    transform: rotate(45deg);
-    transform-origin: center;
-}
-
-.x:after {
-    content: "";
-    display: block;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 32px;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    transform: rotate(-45deg);
-    transform-origin: center;
-}
 
 .main_block {
     position: relative;
@@ -934,7 +888,7 @@ body {
     width: 150px;
 }
 
-.cat_img>p {
+.cat_img > p {
     color: white;
     text-align: center;
     position: relative;
@@ -1042,7 +996,7 @@ body {
     position: absolute;
     z-index: 2;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 33%;
+    margin-top: 29%;
 }
 
 
