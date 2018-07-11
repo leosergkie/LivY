@@ -832,6 +832,7 @@ body {
     position: absolute;
     left: 90%;
     top: -90%;
+    margin-left: 5px;
     color: #aaa;
 }
 
