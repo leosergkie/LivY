@@ -20,8 +20,6 @@ body {
 .header {
     position: relative;
     z-index: 3;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 105%, 0 80%);
-    clip-path: polygon(0 0, 100% 0, 100% 105%, 0 80%); //margin-left: 100px;
     position: relative;
     box-sizing: border-box; //box-shadow: 0 0 5px black;
     padding-top: 80px;
