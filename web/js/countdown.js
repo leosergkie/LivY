@@ -1,4 +1,4 @@
-﻿$('#timer').countdown('2018/07/11').on('update.countdown', function(event) {
+$('#timer').countdown('2018/07/16').on('update.countdown', function(event) {
   var $this = $(this).html(event.strftime(''
     + '<div class = "timer_number">%I<br><span>ЧАСОВ</span></div> : '
     + '<div class = "timer_number">%M<br><span>МИНУТ</span></div> : '
