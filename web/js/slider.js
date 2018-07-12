@@ -37,9 +37,12 @@ imgArray[numImg - 1].style.opacity = 1;
 
 window.onresize = doALoadOfStuff;
 
+sliderRight();
+sliderLeft();
+
 function doALoadOfStuff() {
 	if(document.getElementById('slider').clientWidth <= 920){
-		console.log(true);
+
 	}
     /*При изменении окна*/
 }
